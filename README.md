@@ -4,7 +4,7 @@ Welcome! This document aims to give you an overview of what's coming in the next
 ## General Info
 - Dates: 12/09/24 - 01/31/25 (8 weeks)
 - Work Hours: M-F 9AM-5PM, Lunch 12-1PM. All hours are in Eastern.
-- Trainers: Ulada Haranina 
+- Trainers: Ulada Haranina and Jonathan Jonathan De La Cruz
 - Curriculum: .NET Fullstack
 
 ## Tech Stack
