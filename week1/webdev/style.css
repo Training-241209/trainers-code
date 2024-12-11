@@ -1,0 +1,27 @@
+/*Priority
+
+1. Inline style
+2. ID selector
+3. Class, attribute
+4. Element
+5. Source order
+*/
+
+:root{
+
+    --primary-color: rgb(237, 225, 225);
+}
+
+
+body{
+    background-color: rgb(233, 229, 224);
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    margin: 5em;
+    background-color: rgb(50, 45, 45);
+    color: var(--primary-color);
+    padding: 2em 4em;
+}

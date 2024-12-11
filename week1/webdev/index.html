@@ -1,0 +1,140 @@
+<!DOCTYPE html> <!--Delcares document type and version-->
+<html lang="en"> <!-- html tag is a root of out file and contains the document in a whole-->
+<head> <!--contains metadata info-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My awesome website</title>
+</head>
+
+<style>
+
+
+/*DESKTOP SIZE*/
+
+@media screen and (min-width: 1300px){
+    #grid-example{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:4%;
+    }
+
+    #grid-example img{
+    width:400px;
+    }
+
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 500px){
+    #grid-example{
+
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap:4%;
+    }
+
+    #grid-example img{
+    width:200px;
+    }
+
+}
+
+</style>
+
+<!--This contains all elements that will be displayed in the browser-->
+<body>
+    <h1>Hello World</h1> <!--The largest heading-->
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <p>I am a text element too!</p>
+    <img src="../sdk.png" alt="sdk" />
+
+    <ul>
+        <li>Item 1</li>
+    </ul>
+
+    
+    <ol>
+        <li>Item 1</li>
+    </ol>
+
+    <a href="https://github.com/Training-241209">Here is the link</a>
+
+
+    <!--Container like elements-->
+
+    <div></div> <!--Defines a section-->
+
+    <!--Semantic tags-->
+    <header></header> 
+    <footer></footer>
+    <section></section>
+    <article></article>
+    <nav></nav>
+
+    <script src="/yourJS.js"></script>
+
+
+    <!--Inline and Block elements-->
+
+    <!-- This is an example of inline css-->
+    <p style="border:2px solid red;">I am block</p>
+    <span  style="border:2px solid blue;">I am inline! Here I am!</span>
+
+    <!--Form elements-->
+    <form>
+        <label for="username">Username</label>
+        <input type="text" required name="username">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+
+        <label for="age">Age</label>
+
+        <input type="number" max="99" min="18" required name="age">
+
+
+        <input type="checkbox" value="Some value">
+
+        <label>Cat</label>
+        <input type="radio" value="Cat">
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <section id="grid-example">
+
+        <div id="first_div">
+            <h1>Some blog title</h1>
+            <p>Some blog title</p>
+            <img src="https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg" alt="blogImg">
+        </div>
+
+        <div>
+            <h1>Some blog title</h1>
+            <p>Some blog title</p>
+            <img src="https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg" alt="blogImg">
+        </div>
+
+        <div>
+            <h1>Some blog title</h1>
+            <p>Some blog title</p>
+            <img src="https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg" alt="blogImg">
+        </div>
+
+        <div>
+            <h1>Some blog title</h1>
+            <p>Some blog title</p>
+            <img src="https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg" alt="blogImg">
+        </div>
+
+    </section>
+</body>
+</html>
