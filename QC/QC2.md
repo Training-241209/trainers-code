@@ -82,4 +82,3 @@
 3. Jenkins configuration and setup.
 4. Jenkins jobs and pipeline
 5. Build state statuses
-6. 
