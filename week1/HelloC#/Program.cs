@@ -151,5 +151,9 @@ class Program
 
         double doubleValue = 50.56;
         int intValue = (int)doubleValue; // was converted to int, data loss may occur
+
+
+        
     }
+
 }
